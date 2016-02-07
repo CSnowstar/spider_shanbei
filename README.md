@@ -1,13 +1,24 @@
 # spider_shanbei
-spider_shanbei
-
-
 
 这是一个python 写的爬虫
 目的是抓取扇贝网站上的单词书
 
-返回格式大概是这样
+主要为学习用途... 如有疑问或建议, 欢迎交流
 
+`SnowstarCyan$gmail.com` 或 `qq:997596439`
+
+## 使用
+
+需要输入的参数为单词书的网址列表
+例如:
+```
+http://www.shanbay.com/wordbook/100804/
+http://www.shanbay.com/wordbook/100810/
+http://www.shanbay.com/wordbook/100813/
+```
+
+
+返回格式大概是这样
 ```
 人教版高中英语必修1
 
@@ -28,5 +39,3 @@ elevator | n. 电梯；升降机
 petrol | n. <英> 汽油 （=<美>gasoline）
 gas | n. 汽油；气体；煤气；毒气
 ```
-
-主要为学习用途... 如有疑问或建议, 欢迎交流.
