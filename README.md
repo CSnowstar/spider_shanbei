@@ -38,4 +38,6 @@ subway | n. 地下人行道；<美> 地铁
 elevator | n. 电梯；升降机
 petrol | n. <英> 汽油 （=<美>gasoline）
 gas | n. 汽油；气体；煤气；毒气
+...
+
 ```
