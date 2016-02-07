@@ -12,8 +12,8 @@
   1. 其中 html 解析使用了 Python 的 [BeautifulSoup 库][bs], 请先[安装][bs_d]:
     `pip install beautifulsoup4`
 
-    [bs]: http://www.crummy.com/software/BeautifulSoup/ "BeautifulSoup"
-    [bs_d]: http://www.crummy.com/software/BeautifulSoup/#Download "BeautifulSoup Download"
+  [bs]: http://www.crummy.com/software/BeautifulSoup/ "BeautifulSoup"
+  [bs_d]: http://www.crummy.com/software/BeautifulSoup/#Download "BeautifulSoup Download"
 
   2. 需要输入的参数为单词书的网址列表
     例如:(inputs:)
