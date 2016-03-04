@@ -15,14 +15,14 @@
 
 from bs4 import BeautifulSoup
 from math import ceil
-from tkinter import Tk
-from urllib.request import urlopen
+from Tkinter import Tk
+from urllib2 import urlopen
 import sys
 
 ###############################################################################
 # correct encoding problems on windows
-#reload(sys)
-#sys.setdefaultencoding('utf-8')
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 ###############################################################################
 # function level 6
@@ -31,7 +31,7 @@ import sys
 def httpget(url):
     html = False
     while not html:
-        print(url)
+        print url
         html = urlopen(url).read()
     return html
 
@@ -137,7 +137,7 @@ def setclip(text):
 
 def append_to_file(path_output):
     def append_to(text):
-        f = open(path_output, "a", encoding="utf8")
+        f = open(path_output, "ab")
         f.write(text)
         f.close()
     return append_to
@@ -149,7 +149,7 @@ def append_to_file(path_output):
 def start(books, func_output):
     # if something get wrong, it will not be output...
     lsBooks = splitBooks(books)
-    lsBooksText = [getBookWordList(book) for book in lsBooks]
+    lsBooksText = [getBookWordList(book) for book in lsBooks[:]]
     text = ("\n" * 6).join(lsBooksText)
 
     func_output(text)
